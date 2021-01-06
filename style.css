@@ -1,0 +1,87 @@
+*{margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+#codepen {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background:#e51c23;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  transition: .3s ease;
+  color: #fff;
+  text-align: center;
+}
+ #codepen i {
+    line-height: 56px;
+  }
+
+/* CodePen */
+#portfolio {
+  position: fixed;
+  bottom: 96px;
+  right: 36px;
+  background: #5F3131;
+  width: 44px;
+  height: 44px;
+  animation: buttonFadeInUp 1s ease;
+  color: #fff;
+  border-radius: 100%;
+  text-align:center;
+}
+  #portfolio i {
+    line-height: 44px;
+  }
+
+body {
+	background: #ececec;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	margin:100px auto;
+	padding:0
+}
+li {
+	list-style:none;
+}
+a {
+	color: #333;
+}
+p { text-align:center; margin: 20px auto; width: 100%}
+.container {
+	max-width: 1060px;
+	margin:0 auto
+}
+#nav {
+	width: 100%;
+	display:table;
+	background: #03a9f4
+}
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+.menu li>a {
+	display:block;
+	padding: 15px 15px;
+	font-weight: 400;
+  text-decoration:none;
+	color:#fff
+}
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.31);
+}
+.toggle {display:none; background: #03a9f4; color: #fff; padding: 10px}
+.toggle i {float:right; font-size: 14px;margin-top: 5px}
+
+@media only screen and (max-width: 479px) {
+	.toggle {display:block}
+	.menu {display:none}
+	.menu li {display:inline}
+}
